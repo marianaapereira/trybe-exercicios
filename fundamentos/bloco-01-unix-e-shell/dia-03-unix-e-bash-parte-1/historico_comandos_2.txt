@@ -1,0 +1,14 @@
+ 1589  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+ 1590  cat countries.txt 
+ 1591  less countries.txt 
+ 1592  grep Brazil countries.txt 
+ 1593  grep -i brazil countries.txt 
+ 1594  grep -v fox phrases.txt 
+ 1595  wc -w phrases.txt 
+ 1596  wc -l phrases.txt 
+ 1597  touch empty.tbt empty.pdf
+ 1598  ls
+ 1599  ls -a
+ 1600  ls *.txt
+ 1601  ls *t?t
+ 1602  man ls
