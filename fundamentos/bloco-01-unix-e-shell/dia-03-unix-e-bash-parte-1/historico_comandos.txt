@@ -1,0 +1,40 @@
+ 1534  ls
+ 1535  mkdir unix_testes
+ 1536  cd unix_testes/
+ 1537  touch trybe.txt
+ 1538  cp trybe.txt trybe_backup.txt
+ 1539  ls
+ 1540  mv trybe.txt arquivo_renomeado.txt
+ 1541  ls
+ 1542  mkdir backup
+ 1543  mv trybe_backup.txt ./backup/
+ 1544  ls
+ 1545  mkdir backup2
+ 1546  ls
+ 1547  mv backup/trybe_backup.txt backup2/
+ 1548  ls
+ 1549  cd backup
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd backup2/
+ 1554  ls
+ 1555  cd ..
+ 1556  ls
+ 1557  rmdir backup
+ 1558  ls
+ 1559  mv backup2/ backup/
+ 1560  ls
+ 1561  pwd
+ 1562  ls -a
+ 1563  rm -r backup/
+ 1564  ls
+ 1565  clear
+ 1566  ls
+ 1567  head -5 skills.txt 
+ 1568  tail -4 skills.txt 
+ 1569  ls
+ 1570  rm *.txt
+ 1571  ls
+ 1572  history | cat > historico_comandos.txt
+ 
